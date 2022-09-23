@@ -1,0 +1,43 @@
+curl 'http://localhost/appcontrolflete/ws/index.php?method=logimport.insert' \
+        -H 'Connection: keep-alive' \
+        -H 'Pragma: no-cache' \
+        -H 'Cache-Control: no-cache' \
+        -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+        -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+        -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUwDGeVAQff8y4cT8' \
+        -H 'X-Requested-With: XMLHttpRequest' \
+        -H 'sec-ch-ua-mobile: ?0' \
+        -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+        -H 'sec-ch-ua-platform: "Linux"' \
+        -H 'Origin: http://localhost' \
+        -H 'Sec-Fetch-Site: same-origin' \
+        -H 'Sec-Fetch-Mode: cors' \
+        -H 'Sec-Fetch-Dest: empty' \
+        -H 'Referer: http://localhost/appcontrolflete/' \
+        -H 'Accept-Language: es-419,es;q=0.9' \
+        --data-raw $'------WebKitFormBoundaryUwDGeVAQff8y4cT8--\r\n' \
+        --compressed
+
+
+
+
+
+curl 'http://localhost/appcontrolflete/ws/index.php?method=logdash.report' \
+        -H 'Connection: keep-alive' \
+        -H 'Pragma: no-cache' \
+        -H 'Cache-Control: no-cache' \
+        -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+        -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+        -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUwDGeVAQff8y4cT8' \
+        -H 'X-Requested-With: XMLHttpRequest' \
+        -H 'sec-ch-ua-mobile: ?0' \
+        -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+        -H 'sec-ch-ua-platform: "Linux"' \
+        -H 'Origin: http://localhost' \
+        -H 'Sec-Fetch-Site: same-origin' \
+        -H 'Sec-Fetch-Mode: cors' \
+        -H 'Sec-Fetch-Dest: empty' \
+        -H 'Referer: http://localhost/appcoflete/' \
+        -H 'Accept-Language: es-419,es;q=0.9' \
+        --data-raw $'------WebKitFormBoundaryUwDGeVAQff8y4cT8--\r\n' \
+        --compressed
